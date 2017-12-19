@@ -1,4 +1,4 @@
-# opxlsmall
+# retailMall
 
 > A Vue.js project
 
