@@ -1,6 +1,6 @@
 <template>
 	<div class="login">
-		<group style="margin-top:-1.17647059em;">
+		<group>
 	      <x-input title="" name="mobile" placeholder="请输入手机号码" v-model="mobile" keyboard="number" is-type="china-mobile" required></x-input>
 	      <x-input title="" type="text" placeholder="请输入密码" v-model="password" :min="6" :max="16" @on-change="change" required></x-input>
 	    </group>

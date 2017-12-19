@@ -1,7 +1,7 @@
 <template>
 	<div class="push">
 		<tab :line-width="2" custom-bar-width="60px">
-	      <tab-item selected @on-item-click="toMustPush">必推好货</tab-item>
+	      <tab-item @on-item-click="toMustPush">必推好货</tab-item>
 	      <tab-item @on-item-click="toSaleDetails">售货明细</tab-item>
 	      <tab-item @on-item-click="toCenter">个人中心</tab-item>
 	    </tab>
@@ -17,6 +17,7 @@
 		name: 'push',
 		data() {
 			return {
+				selected:'mustPush',//选中状态
 				mustPushGoods:[{
 					imgSrc:'',
 					name:'JSLJD-32 好大一个灯',

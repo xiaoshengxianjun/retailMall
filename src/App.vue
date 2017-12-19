@@ -20,4 +20,7 @@ body {
 ul li{
 	list-style: none;
 }
+.weui-cells{
+    margin-top: 0px!important;
+}
 </style>

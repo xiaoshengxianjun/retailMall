@@ -14,7 +14,7 @@
 				<img slot="icon-active" src="../assets/icon-type-active.png">
 				<span slot="label">分类</span>
 			</tabbar-item>
-			<tabbar-item link="/Push">
+			<tabbar-item link="/Push/MustPush">
 				<img class="plus-icon" slot="icon" src="../assets/icon-tuishou.png">
 				<span slot="label">推手</span>
 			</tabbar-item>

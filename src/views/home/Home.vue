@@ -88,7 +88,6 @@
 
 <script>
 	import { Search, Toast } from 'vux'
-	window.document.title = "欧普家居商城"
 	export default {
 		name: 'home',
 		data() {
@@ -147,7 +146,6 @@
 			},
 			calcScreenWidth() {
 				var tempWidth = 0;
-				console.log(this.$refs)
 				for(var i = 0; i < this.screenList.length; i++) {
 					console.log(this.screenList[i].name.length)
 					tempWidth += this.$refs.screenBox.children[i].clientWidth + 16;
