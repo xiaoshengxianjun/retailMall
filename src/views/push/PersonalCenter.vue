@@ -76,6 +76,8 @@
 				line-height: 44px;
 				color: @color;
 				background-color: rgba(255,255,255,0.6);
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
 				box-sizing: border-box;
 			}
 			.withdraw{
@@ -88,6 +90,8 @@
 			height: 16px;
 			border: 1.5px solid @color;
 			color: @color;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 			padding-left: 4px;
 			text-align: center;
@@ -111,6 +115,8 @@
 		>div{
 			width: 50%;
 			height: 100%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 			text-align: center;
 			float: left;

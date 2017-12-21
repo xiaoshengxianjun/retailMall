@@ -81,6 +81,8 @@
 		}
 		.name-mobile {
 			padding: 5px 10px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 			display: flex;
 			flex-direction: column;

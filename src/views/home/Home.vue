@@ -258,6 +258,7 @@
 							padding: 10px 20px 0px;
 							font-size: 14px;
 							.good-name {
+								height: 43px;
 								-webkit-line-clamp: 2;
 								/*用来限制在一个块元素显示的文本的行数*/
 								display: -webkit-box;

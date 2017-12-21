@@ -5,6 +5,7 @@ import Tab from '@/components/Tab'
 import Home from '@/views/home/Home'
 import Classify from '@/views/classify/Classify'
 import ClassifyDetail from '@/views/classify/ClassifyDetail'
+import GoodsDetails from '@/views/classify/GoodsDetails'
 import Shopcar from '@/views/shopcar/Shopcar'
 import My from '@/views/my/My'
 import Push from '@/views/push/Push'
@@ -61,6 +62,10 @@ export default new Router({
       		path:'/ClassifyDetail',
       		name:'ClassifyDetail',
       		component: ClassifyDetail
+      },{
+      		path:'/GoodsDetails',
+      		name:'GoodsDetails',
+      		component: GoodsDetails
       }]
     },{
 	  		path:'/Login',
