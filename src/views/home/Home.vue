@@ -200,6 +200,7 @@
 				overflow-y: hidden;
 				ul {
 					width: auto;
+					white-space:nowrap;
 					line-height: 50px;
 					float: left;
 					li {

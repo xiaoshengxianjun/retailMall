@@ -17,6 +17,9 @@ body {
   /*background-color: #fbf9fe;*/
   background-color: #f7f8fd;
 }
+a{
+	color: #000000;
+}
 ul li{
 	list-style: none;
 }

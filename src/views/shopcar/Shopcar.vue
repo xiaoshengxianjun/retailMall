@@ -41,7 +41,7 @@
 		</div>
 		<!--合计结算-->
 		<div class="total-settlement vux-1px-t">
-			<check-icon :value.sync="checkedAll" @click.native="handleCheckedAll"> 全选</check-icon>
+			<check-icon :value.sync="checkedAll" @click.native="handleCheckedAll">全选</check-icon>
 			<span>合计：￥<strong>123412</strong></span>
 			<button>去结算</button>
 		</div>
@@ -172,11 +172,8 @@
 			justify-content: space-between;
 			.goods-name {
 				-webkit-line-clamp: 2;
-				/*用来限制在一个块元素显示的文本的行数*/
 				display: -webkit-box;
-				/*必须结合的属性，将对象作为弹性伸缩盒子模型显示*/
 				-webkit-box-orient: vertical;
-				/*必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式*/
 				overflow: hidden;
 			}
 			.price-count {

@@ -1,7 +1,7 @@
 <template>
 	<div class="push">
 		<tab :line-width="2" custom-bar-width="60px">
-	      <tab-item @on-item-click="toMustPush">必推好货</tab-item>
+	      <tab-item selected @on-item-click="toMustPush">必推好货</tab-item>
 	      <tab-item @on-item-click="toSaleDetails">售货明细</tab-item>
 	      <tab-item @on-item-click="toCenter">个人中心</tab-item>
 	    </tab>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-	import { Tab, TabItem, ViewBox, Box, Flexbox, FlexboxItem } from 'vux'
+	import { Tab, TabItem, ViewBox } from 'vux'
 	export default {
 		name: 'push',
 		data() {
@@ -39,10 +39,7 @@
 		components: {
 			Tab,
 			TabItem,
-			ViewBox,
-			Box,
-			Flexbox,
-			FlexboxItem,
+			ViewBox
 		},
 		methods: {
 			toMustPush(){
