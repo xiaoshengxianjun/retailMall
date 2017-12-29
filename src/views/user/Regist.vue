@@ -7,7 +7,7 @@
 	      <x-input title="" type="text" placeholder="确认密码" v-model="passwordC" :min="6" :max="16" required></x-input>
 	    </group>
 	    <p><span>注册后，您的微信账号和手机号都可以登录</span></p>
-	    <box gap="10px 10px">
+	    <box gap="10px 25px">
 	    	<x-button type="primary">注册</x-button>
 	    </box>
 	    <p><span class="to-login">已有账号？去登录</span></p>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-	import { XInput,Box, Group, XButton } from 'vux'
+	import { XInput, Box, Group, XButton } from 'vux'
 	export default {
 		name: 'regist',
 		data() {

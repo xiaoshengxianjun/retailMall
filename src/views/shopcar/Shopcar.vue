@@ -49,7 +49,7 @@
 </template>
 
 <script>
-	import { Box, XButton, CheckIcon } from 'vux'
+	import { XButton, CheckIcon } from 'vux'
 	import CalcNumber from '../../components/CalcNumber.vue'
 	export default {
 		name: 'shopcar',
@@ -82,7 +82,6 @@
 			}
 		},
 		components: {
-			Box,
 			XButton,
 			CheckIcon,
 			CalcNumber

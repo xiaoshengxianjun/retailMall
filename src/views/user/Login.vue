@@ -5,7 +5,7 @@
 	      <x-input title="" type="text" placeholder="请输入密码" v-model="password" :min="6" :max="16" @on-change="change" required></x-input>
 	    </group>
 	    <p><span class="forget-pass">忘记密码?</span></p>
-	    <box gap="10px 10px">
+	    <box gap="10px 25px">
 	    	<x-button type="primary">登录</x-button>
 	    	<x-button><img class="icon-wx" src="../../assets/icon-wx.png" />微信登录</x-button>
 	    </box>

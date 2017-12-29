@@ -5,9 +5,10 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 import router from './router'
-import  { ToastPlugin } from 'vux'
+import  { ToastPlugin, LoadingPlugin } from 'vux'
 
 Vue.use(ToastPlugin)
+Vue.use(LoadingPlugin)
 Vue.use(VueRouter)
 
 FastClick.attach(document.body)

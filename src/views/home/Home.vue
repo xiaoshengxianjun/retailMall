@@ -147,7 +147,7 @@
 			calcScreenWidth() {
 				var tempWidth = 0;
 				for(var i = 0; i < this.screenList.length; i++) {
-					console.log(this.screenList[i].name.length)
+//					console.log(this.screenList[i].name.length)
 					tempWidth += this.$refs.screenBox.children[i].clientWidth + 16;
 				}
 				return tempWidth + 1;

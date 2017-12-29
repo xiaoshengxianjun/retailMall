@@ -5,6 +5,9 @@
 	      <x-input title="" type="text" placeholder="请输入验证码" v-model="code" required><x-button slot="right" type="primary" mini>获取验证码</x-button></x-input>
 	      <x-input title="" type="text" placeholder="请输入新密码" v-model="password" :min="6" :max="16" required></x-input>
 	    </group>
+	    <box gap="30px 25px 10px">
+	    	<x-button type="primary">确认</x-button>
+	    </box>
 	</div>
 </template>
 
@@ -14,7 +17,9 @@
 		name: 'changePassword',
 		data() {
 			return {
-				
+				mobile:'',
+				code:'',
+				password:''
 			}
 		},
 		components: {

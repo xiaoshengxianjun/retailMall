@@ -21,6 +21,20 @@ import LoginBind from '@/views/user/LoginBind'
 import ChangePassword from '@/views/user/ChangePassword'
 import MyOrders from '@/views/order/MyOrders'
 import OrderDetails from '@/views/order/OrderDetails'
+import Evaluate from '@/views/order/Evaluate'
+import CustomerService from '@/views/order/CustomerService'
+import ReturnGoods from '@/views/order/ReturnGoods'
+import PerfectOrder from '@/views/order/PerfectOrder'
+import ChoiceStore from '@/views/store/ChoiceStore'
+import NearbyStore from '@/views/store/NearbyStore'
+import BindCardStep1 from '@/views/bank/BindCardStep1'
+import BindCardStep2 from '@/views/bank/BindCardStep2'
+import CheckMobile from '@/views/bank/CheckMobile'
+import BindSuccess from '@/views/bank/BindSuccess'
+import CardList from '@/views/bank/CardList'
+import Withdrawals from '@/views/bank/Withdrawals'
+import CashFlow from '@/views/bank/CashFlow'
+import Result from '@/views/bank/Result'
 
 Vue.use(Router)
 
@@ -109,6 +123,62 @@ export default new Router({
 	  		path:'/ChangePassword',
 	  		name:'ChangePassword',
 	  		component: ChangePassword
+	  },{
+	  		path:'/ChoiceStore',
+	  		name:'ChoiceStore',
+	  		component: ChoiceStore
+	  },{
+	  		path:'/BindCardStep1',
+	  		name:'BindCardStep1',
+	  		component: BindCardStep1
+	  },{
+	  		path:'/BindCardStep2',
+	  		name:'BindCardStep2',
+	  		component: BindCardStep2
+	  },{
+	  		path:'/CheckMobile',
+	  		name:'CheckMobile',
+	  		component: CheckMobile
+	  },{
+	  		path:'/BindSuccess',
+	  		name:'BindSuccess',
+	  		component: BindSuccess
+	  },{
+	  		path:'/CardList',
+	  		name:'CardList',
+	  		component: CardList
+	  },{
+	  		path:'/Withdrawals',
+	  		name:'Withdrawals',
+	  		component: Withdrawals
+	  },{
+	  		path:'/CashFlow',
+	  		name:'CashFlow',
+	  		component: CashFlow
+	  },{
+	  		path:'/Result',
+	  		name:'Result',
+	  		component: Result
+	  },{
+	  		path:'/Evaluate',
+	  		name:'Evaluate',
+	  		component: Evaluate
+	  },{
+	  		path:'/CustomerService',
+	  		name:'CustomerService',
+	  		component: CustomerService
+	  },{
+	  		path:'/ReturnGoods',
+	  		name:'ReturnGoods',
+	  		component: ReturnGoods
+	  },{
+	  		path:'/PerfectOrder',
+	  		name:'PerfectOrder',
+	  		component: PerfectOrder
+	  },{
+	  		path:'/NearbyStore',
+	  		name:'NearbyStore',
+	  		component: NearbyStore
 	  }
   ]
 })

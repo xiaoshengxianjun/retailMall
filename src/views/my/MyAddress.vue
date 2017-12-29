@@ -46,7 +46,7 @@
 			},
 			handleSelect(){
 				this.$router.push({
-					path:'/OrderDetails'
+					path:'/PerfectOrder'
 				})
 			}
 		},
