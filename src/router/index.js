@@ -35,6 +35,7 @@ import CardList from '@/views/bank/CardList'
 import Withdrawals from '@/views/bank/Withdrawals'
 import CashFlow from '@/views/bank/CashFlow'
 import Result from '@/views/bank/Result'
+import MyQR from '@/views/my/MyQR'
 
 Vue.use(Router)
 
@@ -179,6 +180,10 @@ export default new Router({
 	  		path:'/NearbyStore',
 	  		name:'NearbyStore',
 	  		component: NearbyStore
+	  },{
+	  		path:'/MyQR',
+	  		name:'MyQR',
+	  		component: MyQR
 	  }
   ]
 })

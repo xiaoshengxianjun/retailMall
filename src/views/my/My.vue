@@ -37,6 +37,7 @@
 			<cell title="收货地址" is-link :link="{path:'/MyAddress'}"></cell>
 			<cell title="客服MM" is-link></cell>
 			<cell title="修改密码" is-link></cell>
+			<cell title="我的二维码" is-link :link="{path:'/MyQR'}"></cell>
 		</group>
 	</div>
 </template>

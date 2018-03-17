@@ -4,7 +4,7 @@
 			<search v-model="searchValue" position="absolute" auto-scroll-to-top top="0px" @on-cancel="onCancel" @on-submit="onSubmit" placeholder="请输入关键字" ref="search"></search>
 		</div>
 		<div class="nearby-store">
-
+			<img src="../../assets/img-demo1.png"/>
 		</div>
 		<div class="screen-list">
 			<div class="screen-box">
@@ -15,7 +15,7 @@
 			<x-icon class="icon-right" type="ios-arrow-right" size="30"></x-icon>
 		</div>
 		<div class="special-banner">
-
+			<img src="../../assets/img-demo2.png"/>
 		</div>
 		<div class="good-list">
 			<div class="star-single">
@@ -181,11 +181,15 @@
 			background-color: #bcccdc;
 			border-bottom: 10px solid @borderColor;
 		}
-		.nearby-store {
+		.nearby-store,.special-banner {
 			width: 100%;
 			height: 87px;
 			background-color: #bcccdc;
 			border-bottom: 10px solid @borderColor;
+			img{
+				width: 100%;
+				height: 100%;
+			}
 		}
 		.screen-list {
 			padding: 0px 15px;
@@ -223,12 +227,6 @@
 				right: 5px;
 				top: 10px;
 			}
-		}
-		.special-banner {
-			width: 100%;
-			height: 87px;
-			background-color: #bcccdc;
-			border-bottom: 10px solid @borderColor;
 		}
 		.good-list {
 			.star-single {

@@ -6,7 +6,7 @@
 	    </group>
 	    <p><span class="forget-pass">忘记密码?</span></p>
 	    <box gap="10px 25px">
-	    	<x-button type="primary">登录</x-button>
+	    	<x-button type="primary" @click.native="handleLogin">登录</x-button>
 	    	<x-button><img class="icon-wx" src="../../assets/icon-wx.png" />微信登录</x-button>
 	    </box>
 	    <p><span class="to-regist">还没有账号？快去注册</span></p>
@@ -32,7 +32,12 @@
 		methods:{
 			change (val) {
 		      console.log('on change', val)
-		    }
+			},
+			handleLogin(){
+				this.$router.push({
+					path:'/Home'
+				})
+			}
 		}
 	}
 </script>
