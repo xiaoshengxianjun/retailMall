@@ -2,6 +2,7 @@
 	<div class="myQR">
 		<vue-q-art :config="config"></vue-q-art>
 		<vue-qr :bgSrc='config.imagePath' :logoSrc="config.imagePath" :text="config.value" :size="200" :margin="0"></vue-qr>
+		<vue-qr :logoSrc="config.imagePath" :text="config.value" :size="200" :margin="0"></vue-qr>
 	</div>
 </template>
 
